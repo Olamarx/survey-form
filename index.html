@@ -13,12 +13,32 @@
     <p id="description">We are apllicants at Microverse trying to be a pro web developer</p>
 </div>
 
-<div>
+<div id="form">
     <form action="" id="survey-form">
-        <p>Email</p>
-        <input type="text" id="name" placeholder="Email">
-        
+        <label for="name">Name</label>
+        <input type="name" id="name" placeholder="Name" required>
 
+        <input type="checkbox" id="check" name="" value="Name">
+    <label for="name"> Name Checked</label><br>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" placeholder="Email" required>
+
+        <input type="checkbox" id="check2" name="" value="Email">
+        <label for="email"> Email Checked</label><br>
+
+
+        <label for="number">Number</label>
+        <input type="number" minlength="10" maxlength="12" id="number" placeholder="Number" required>
+
+        <input type="checkbox" id="check3" name="" value="Number">
+        <label for="number"> Number Checked</label><br>
+
+        <label for="w3review">Review of our poor design:</label>
+<textarea id="review" name="review" rows="4" cols="50">
+    We know we aren't better but we are trying to learn.
+  </textarea>
+  <button type="submit" id="button" value="Submit">Submit</button>
     </form>
 </div>
 
